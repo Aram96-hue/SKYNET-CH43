@@ -1,0 +1,108 @@
+    1  ls
+    2  cd Desktop/
+    3  cd ..
+    4  cd OneDrive/
+    5  cd Desktop/
+    6  mkdir Casa
+    7  cd Casa
+    8  mkdir Cocina/
+    9  mkdir Sala/
+   10  mkdir Baño
+   11  mkdir Comedor/
+   12  mkdir Sotano/
+   13  mkdir Cochera/
+   14  mkdir Jardin/
+   15  mkdir Terraza/
+   16  mkdir Sala de cine/
+   17  mkdir Cine/
+   18  rm 'Cine'
+   19  rm -r 'Cine'
+   20  mkdir Cine/
+   21  ls
+   22  rm -r 'de'
+   23  ls
+   24  cd Cocina/
+   25  mkdir Refrigerador
+   26  mkdir Microondas
+   27  rm -r 'Microondas'
+   28  rm -r 'Refrigerador'
+   29  touch Refrigerador.txt
+   30  touch Microondas.txt
+   31  touch Estufa.txt
+   32  touch Isla.txt
+   33  touch Tarja.txt
+   34  ls
+   35  cd ../
+   36  cd Sala/
+   37  touch Sofa.txt
+   38  touch TV.txt
+   39  touch MesadeCentro.txt
+   40  touch Alfombra.txt
+   41  ls
+   42  cd ../
+   43  cd Comedor/
+   44  touch Mesa.txt
+   45  tocuh Sillas.txt
+   46  touch Sillas.txt
+   47  cd ../
+   48  cd Cochera/
+   49  touch BYD HAN.txt
+   50  touch EstaciondeCarga.txt
+   51  cd ../
+   52  cd Baño
+   53  touch Inodoro.txt
+   54  touch Lavabo.txt
+   55  touch Espejo.txt
+   56  cd ../
+   57  cd Jardin/
+   58  touch Piscina.txt
+   59  touch Arbol.txt
+   60  touch Banca.txt
+   61  touch Perro.txt
+   62  cd ../
+   63  cd Sotano/
+   64  mkdir Lavanderia
+   65  ls
+   66  touch Cajas.txt
+   67  ls 
+   68  cd Lavanderia
+   69  touch Lavadora.txt
+   70  touch Detergente.txt
+   71  touch Ropa.txt
+   72  cd ../../
+   73  cd Terraza/
+   74  touch Bar.txt
+   75  touch TV2.txt
+   76  cd ../
+   77  cd Cine/
+   78  touch Pantalla.txt
+   79  touch Asientos.txt
+   80  touch IMAX.txt
+   81  cd ../
+   82  ls
+   83  ls
+   84  ls -la
+   85  touch 'Primer archivo para repositorio'/
+   86  touch archivo.txt
+   87  echo 'Primer archivo para repositorio' >> archivo.txt
+   88  ls
+   89  ls -la
+   90  ls -l
+   91  git init
+   92  ls -la
+   93  git status 
+   94  git add .
+   95  git status
+   96  git commit -m 'add archivo.txt - 1 line'
+   97  git status
+   98  ls -la
+   99  git status
+  100  git add .
+  101  git status
+  102  git commit -m 'se agregan dos líneas al archivo'
+  103  git status
+  104  git log
+  105  git remote add origin https://github.com/Aram96-hue/SKYNET-CH43.git 
+  106  git status
+  107  git push -u origin master
+  108  history >comandos.txt
